@@ -17,7 +17,7 @@ public class PlantInfo {
 //        DriverManager.registerDriver(driver);
         try {
             String myUrl = "jdbc:sqlserver://plantinfo.database.windows.net:1433;database=PlantInfoSource;user=wluh@" +
-                    "plantinfo;password=Swift123!;encrypt=true;trustServerCertificate=false;hostNameInCer" +
+                    "plantinfo;password=password;encrypt=true;trustServerCertificate=false;hostNameInCer" +
                     "tificate=*.database.windows.net;loginTimeout=30;";
             myUrl = "jdbc:sqlserver://plantinfo.database.windows.net:1433;databaseName=PlantInfoSource;user=wluh" +
             "@plantinfo;password=Swift123!";
